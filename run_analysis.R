@@ -27,8 +27,8 @@ ydataset <- bind_rows(ytest, ytrain)
 sdataset <- bind_rows(stest, strain)
 
 #grab the means and the std column numbers as they match the columns in the xdataset
-meanz <-  grep("mean()", features$V2)
-stds <-  grep("std()", features$V2)
+meanz <-  grep("mean()", features$V2, fixed = TRUE)
+stds <-  grep("std()", features$V2, fixed = TRUE)
 
 #combine the means and the std
 meanzstds <- c(meanz, stds)
