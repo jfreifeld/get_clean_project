@@ -40,7 +40,7 @@ called redxdataset because it is reduced.
 see the run_analysis.R file for how the columns are renamed, they are commented.
 
 
-* ydatasetdesc: ydataset with new name so that it can be reansmuted in the more labeled descriptive state, I use a different variable because I wanted to keep the original numeric data intact
+* ydatasetdesc: ydataset with new name so that it can be transmuted in the more descriptive state, I use a different variable because I wanted to keep the original numeric data intact
 
 * yxdataset: new data.frame with binded columns of the reduced xdataset, transmuted ydataset and the sdataset
 
@@ -57,70 +57,71 @@ see the run_analysis.R file for how the columns are renamed, they are commented.
 
 * SubjectID: ID of the Subject
 * Activity: Converted descriptive activity 1 of 6 (WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING)
-* tBodyAcc-mean()-X
-* tBodyAcc-mean()-Y
-* tBodyAcc-mean()-Z
-* tGravityAcc-mean()-X
-* tGravityAcc-mean()-Y
-* tGravityAcc-mean()-Z
-* tBodyAccJerk-mean()-X
-* tBodyAccJerk-mean()-Y
-* tBodyAccJerk-mean()-Z
-* tBodyGyro-mean()-X
-* tBodyGyro-mean()-Y
-* tBodyGyro-mean()-Z
-* tBodyGyroJerk-mean()-X
-* tBodyGyroJerk-mean()-Y
-* tBodyGyroJerk-mean()-Z
-* tBodyAccMag-mean()
-* tGravityAccMag-mean()
-* tBodyAccJerkMag-mean()
-* tBodyGyroMag-mean()
-* tBodyGyroJerkMag-mean()
-* fBodyAcc-mean()-X
-* fBodyAcc-mean()-Y
-* fBodyAcc-mean()-Z
-* fBodyAccJerk-mean()-X
-* fBodyAccJerk-mean()-Y
-* fBodyAccJerk-mean()-Z
-* fBodyGyro-mean()-X
-* fBodyGyro-mean()-Y
-* fBodyGyro-mean()-Z
-* fBodyAccMag-mean()
-* fBodyBodyAccJerkMag-mean()
-* fBodyBodyGyroMag-mean()
-* fBodyBodyGyroJerkMag-mean()
-* tBodyAcc-std()-X
-* tBodyAcc-std()-Y
-* tBodyAcc-std()-Z
-* tGravityAcc-std()-X
-* tGravityAcc-std()-Y
-* tGravityAcc-std()-Z
-* tBodyAccJerk-std()-X
-* tBodyAccJerk-std()-Y
-* tBodyAccJerk-std()-Z
-* tBodyGyro-std()-X
-* tBodyGyro-std()-Y
-* tBodyGyro-std()-Z
-* tBodyGyroJerk-std()-X
-* tBodyGyroJerk-std()-Y
-* tBodyGyroJerk-std()-Z
-* tBodyAccMag-std()
-* tGravityAccMag-std()
-* tBodyAccJerkMag-std()
-* tBodyGyroMag-std()
-* tBodyGyroJerkMag-std()
-* fBodyAcc-std()-X
-* fBodyAcc-std()-Y
-* fBodyAcc-std()-Z
-* fBodyAccJerk-std()-X
-* fBodyAccJerk-std()-Y
-* fBodyAccJerk-std()-Z
-* fBodyGyro-std()-X
-* fBodyGyro-std()-Y
-* fBodyGyro-std()-Z
-* fBodyAccMag-std()
-* fBodyBodyAccJerkMag-std()
-* fBodyBodyGyroMag-std()
-* fBodyBodyGyroJerkMag-std()
+* tBodyAcc_mean_X
+* tBodyAcc_mean_Y
+* tBodyAcc_mean_Z
+* tGravityAcc_mean_X
+* tGravityAcc_mean_Y
+* tGravityAcc_mean_Z
+* tBodyAccJerk_mean_X
+* tBodyAccJerk_mean_Y
+* tBodyAccJerk_mean_Z
+* tBodyGyro_mean_X
+* tBodyGyro_mean_Y
+* tBodyGyro_mean_Z
+* tBodyGyroJerk_mean_X
+* tBodyGyroJerk_mean_Y
+* tBodyGyroJerk_mean_Z
+* tBodyAccMag_mean
+* tGravityAccMag_mean
+* tBodyAccJerkMag_mean
+* tBodyGyroMag_mean
+* tBodyGyroJerkMag_mean
+* fBodyAcc_mean_X
+* fBodyAcc_mean_Y
+* fBodyAcc_mean_Z
+* fBodyAccJerk_mean_X
+* fBodyAccJerk_mean_Y
+* fBodyAccJerk_mean_Z
+* fBodyGyro_mean_X
+* fBodyGyro_mean_Y
+* fBodyGyro_mean_Z
+* fBodyAccMag_mean
+* fBodyBodyAccJerkMag_mean
+* fBodyBodyGyroMag_mean
+* fBodyBodyGyroJerkMag_mean
+* tBodyAcc_std_X
+* tBodyAcc_std_Y
+* tBodyAcc_std_Z
+* tGravityAcc_std_X
+* tGravityAcc_std_Y
+* tGravityAcc_std_Z
+* tBodyAccJerk_std_X
+* tBodyAccJerk_std_Y
+* tBodyAccJerk_std_Z
+* tBodyGyro_std_X
+* tBodyGyro_std_Y
+* tBodyGyro_std_Z
+* tBodyGyroJerk_std_X
+* tBodyGyroJerk_std_Y
+* tBodyGyroJerk_std_Z
+* tBodyAccMag_std
+* tGravityAccMag_std
+* tBodyAccJerkMag_std
+* tBodyGyroMag_std
+* tBodyGyroJerkMag_std
+* fBodyAcc_std_X
+* fBodyAcc_std_Y
+* fBodyAcc_std_Z
+* fBodyAccJerk_std_X
+* fBodyAccJerk_std_Y
+* fBodyAccJerk_std_Z
+* fBodyGyro_std_X
+* fBodyGyro_std_Y
+* fBodyGyro_std_Z
+* fBodyAccMag_std
+* fBodyBodyAccJerkMag_std
+* fBodyBodyGyroMag_std
+* fBodyBodyGyroJerkMag_std
+
 

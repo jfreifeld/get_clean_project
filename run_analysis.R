@@ -38,7 +38,11 @@ meanzstds <- c(meanz, stds)
 redxdataset <- select(xdataset, num_range("V",meanzstds))
 #give them the feature label
 #attach the columnnames
-colnames(redxdataset) <- features$V2[meanzstds]
+xdatacols <- sub("()", "", features$V2[meanzstds], fixed = TRUE)
+xdatacols <- gsub("-", "_", xdatacols, fixed = FALSE)
+
+colnames(redxdataset) <- xdatacols
+
 
 #rename the subjectID and Activities column
 #transmute the data in the Activities column

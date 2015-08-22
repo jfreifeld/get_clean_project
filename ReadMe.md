@@ -34,7 +34,7 @@ I decided to merge the data into complete sets across similar dimensions in the 
 The columns required for the assignment were those with a mean or a std.  These were 'grepped' from the features.txt file and the columns were identified in a combined vector.  That vector was used to select only those columns.  The remaining columns were ignored.
 
 
-I further used the features.txt file to rename the columns of the xdata. I chose to not alter the deescriptive names as they existed in the features file based on the recommendations found in the course discussion page here:
+I further used the features.txt file to rename the columns of the xdata. I only altered the descriptive names as they existed in the features file based on the recommendations found in the course discussion page here:
 
 
 ***
@@ -61,9 +61,10 @@ There were two great threads that were very helpful in this assignment and I wan
 
 [general assignment notes discussion:](https://class.coursera.org/getdata-031/forum/thread?thread_id=28)
 
-It was based on the information there that I made the decision not to
-clean the variable names in the std and means - this was advised against as the data is already nomaized in the wide form, and I also chose not to rename the xdata variables to all lowercase for tidiness compliance as they are already in CamelCase.
-[CamelCase](https://en.wikipedia.org/wiki/CamelCase)
+It was based on the information there that I made the decision only to clean the variable names in the std and means by removing the "()" and convert the "-" to "_". The data is already normalized in the wide form. 
+
+I also chose not to rename the xdata variables to all lowercase for tidiness compliance as they are already in CamelCase.
+[CamelCase](https://en.wikipedia.org/wiki/CamelCase).  If we consider that its descriptive nature, it seems common sense to leave it as is.
 
 I chose not to include the inertial folder.
 
