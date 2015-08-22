@@ -5,11 +5,11 @@ date: "August 19, 2015"
 ---
 
 ### Libraries
-library(data.table)
-library(plyr)
-library(dplyr)
-library(tidyr)
-library(reshape2)
+* library(data.table)
+* library(plyr)
+* library(dplyr)
+* library(tidyr)
+* library(reshape2)
 
 ### Variables
 
