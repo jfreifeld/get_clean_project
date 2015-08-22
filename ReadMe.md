@@ -63,7 +63,7 @@ There were two great threads that were very helpful in this assignment and I wan
 
 It was based on the information there that I made the decision only to clean the variable names in the std and means by removing the "()" and convert the "-" to "_". The data is already normalized in the wide form. 
 
-I also chose not to rename the xdata variables to all lowercase for tidiness compliance as they are already in CamelCase.
+I also chose not to rename the xdata variables to all lowercase for tidiness compliance as they are already in
 [CamelCase](https://en.wikipedia.org/wiki/CamelCase).  If we consider that its descriptive nature, it seems common sense to leave it as is.
 
 I chose not to include the inertial folder.
