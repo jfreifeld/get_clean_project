@@ -21,20 +21,16 @@ date: "August 19, 2015"
 * strain: strain data
 * actlabel: actlabel data 
 * features: featrues data
-
 * getactivity: function to swap the activity_labels with the activity id
-
 * xdataset: bind xdata by rowset
 * ydataset: bind ydata by rowset
 * sdataset: bind sdata by rowset
-
 * meanz: grab the means columns
 * stds: grab the stds colums
 * meanzstds: join the meanz and the stds columns
-
-
 * redxdataset: take only the columns in xdataset with mean() and std() from xdataset
 called redxdataset because it is reduced.
+* xdatacols: reformatting the column names to be more readable.
 
 
 see the run_analysis.R file for how the columns are renamed, they are commented.
